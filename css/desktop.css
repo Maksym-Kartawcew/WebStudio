@@ -1,0 +1,109 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+  }
+  .header-logo {
+    margin-right: 76px;
+    padding-bottom: 27px;
+  }
+  .nav {
+    margin: 0px 332px 0px 0px;
+    width: 261px;
+  }
+  .contact-box {
+    display: flex;
+  }
+  .menu-item {
+    padding-bottom: 27px;
+  }
+  .contact {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding-top: 24px;
+    margin-right: 40px;
+  }
+  .tel {
+    padding-top: 24px;
+    margin-right: 0px;
+  }
+  .hero-box {
+    background-color: #2e2f42;
+    background-image: var(--bg-gradient), url(../images/bghero-desktop-x1.jpg);
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
+    }
+      @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-box {
+      background-image: var(--bg-gradient), url(../images/bghero-desktop-x2.jpg);
+    }
+  }
+  .button {
+    padding-bottom: 188px;
+  }
+  .main-page-title {
+    padding-top: 188px;
+    margin-bottom: 48px;
+  }
+  .team-box {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .benefits-icon-list {
+    display: flex;
+  }
+  .benefits-list-item {
+    width: 264px;
+  }
+  .benefits-box {
+    padding: 120px 0px 0px 0px;
+  }
+  .do-box {
+    display: block;
+  }
+  .customers-item {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+  }
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .customers-list {
+    column-gap: 24px;
+    row-gap: 72px;
+    width: 1128px;
+  }
+
+  .footer-box {
+    width: 1128px;
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .footer-form {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .footer-text {
+    margin-right: 120px;
+  }
+  .footer-soc-list {
+    margin-right: 80px;
+  }
+  .modal-title {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .modal-form {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .form-btn {
+    margin: 0px 120px 24px 91px;
+  }
+}

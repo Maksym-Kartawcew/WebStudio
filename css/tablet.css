@@ -1,0 +1,96 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .menu-open {
+  display: none;
+  }
+  .nav {
+    display: flex;
+  }
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hero-box {
+    background-color: #2e2f42;
+    background-image: var(--bg-gradient), url(../images/bghero-tablet-x1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
+    }
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-box {
+    background-image: var(--bg-gradient), url(../images/bghero-tablet-x2.jpg);
+  }
+}
+  .main-page-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    margin-bottom: 40px;
+  }
+  .benefits-list {
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+  .benefits-list-item {
+    max-width: 356px;
+  }
+
+  .team-box {
+    padding-bottom: 104px;
+  }
+  .team-list {
+    row-gap: 64px;
+    column-gap: 24px;
+  }
+
+  .customers-list {
+    column-gap: 24px;
+    row-gap: 72px;
+    width: 552px;
+  }
+  .footer-box {
+    width: 552px;
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-logo {
+    justify-content: left;
+  }
+  .footer-text {
+    width: 264px;
+    margin-right: 24px;
+  }
+  .footer-title {
+    text-align: left;
+  }
+  .footer-form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-input {
+    width: 264px;
+    margin-right: 24px;
+  }
+  .footer-btn {
+    margin-top: 40px;
+  }
+  .modal-title {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .modal-form {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .form-btn {
+    margin: 0px 120px 24px 91px;
+  }
+}
