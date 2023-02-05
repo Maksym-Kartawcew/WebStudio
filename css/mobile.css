@@ -2,19 +2,4 @@
   .container {
     max-width: 428px;
   }
-  .hero-box {
-    background-color: #2e2f42;
-    background-image: var(--bg-gradient), url(../images/bghero-mobile-x1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    flex-grow: 1;
-    }
-  @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .hero-box {
-    background-image: var(--bg-gradient), url(../images/bghero-mobile-x2.jpg);
-  }
-}
 }

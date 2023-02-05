@@ -58,17 +58,21 @@
           +11 (000) 111-11-11</a
         >
         </div>
-        <div >
-        <button type="button" class="menu-open"><svg width="32" height="22">
+        <div>
+        <button type="button" data-menu-open class="menu-open"><svg width="32" height="22">
           <use href="./images/icons.svg#icon-hamburger"></use>
         </svg></button>
         </div>
       </div>
 
-      <!-- <div class="mob-menu">
-        <button class="menu-close"><svg width="8" height="8">
+      
+      <div class="mob-menu is-hidden" data-menu>
+        <div class="container">
+        <div class="menu-button">
+        <button type="button" data-menu-close class="menu-close"><svg width="8" height="8">
           <use href="./images/icons.svg#icon-close"></use>
         </svg></button>
+      </div>
 
           <ul class="mob-menu-list">
             <li class="mob-menu-item">
@@ -88,7 +92,7 @@
           <a class="mob-link-mail" href="mailto:info@devstudio.com"
           >info@devstudio.com</a
         >
-        <ul class="mob-soc-list list">
+        <ul class="mob-soc-list">
           <li class="mob-soc-item">
             <a href="" class="mob-soc-link">
               <svg class="mob-soc-icon" width="24" height="24">
@@ -116,8 +120,10 @@
                 <use href="./images/icons.svg#icon-linkedin"></use>
               </svg>
             </a>
-
-      </div> -->
+            </li>
+          </ul>
+          </div>
+      </div>
     </header>
 
     <!--Main page-->
@@ -512,9 +518,11 @@
 
 <div data-modal class="backdrop is-hidden">
   <div class="modal">
+    <div class="modal-button">
     <button data-modal-close class="btn-close"><svg width="8" height="8">
       <use href="./images/icons.svg#icon-close"></use>
     </svg></button>
+  </div>
         <h2 class="modal-title">Leave your contacts and we will call you back</h2>
 
 <form class="modal-form">
@@ -552,10 +560,10 @@
   <span class="checkbox-icon"></span>I accept the terms and conditions of the <a href="" class="link-privacy">Privacy Policy</a>
 </label>
 </div>
+<div class="submit-btn">
 <button type="submit" class="form-btn">Send</button>
-
+</div>
 </form>
-
   </div>
 </div>
 
@@ -576,5 +584,6 @@
 
 
 <script src="./js/modal.js"></script>
+<script src="./js/menu.js"></script>
   </body>
 </html>

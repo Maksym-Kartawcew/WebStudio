@@ -33,7 +33,6 @@
      background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    flex-grow: 1;
     }
       @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -103,7 +102,6 @@
     padding-left: 24px;
     padding-right: 24px;
   }
-  .form-btn {
-    margin: 0px 120px 24px 91px;
-  }
 }
+
+
