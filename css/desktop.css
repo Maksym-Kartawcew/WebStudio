@@ -6,6 +6,9 @@
     margin-right: 76px;
     padding-bottom: 27px;
   }
+  .current::after {
+    top: 72px;
+  }
   .nav {
     margin: 0px 332px 0px 0px;
     width: 261px;

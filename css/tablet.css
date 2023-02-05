@@ -5,6 +5,9 @@
   .menu-open {
   display: none;
   }
+  .header-logo {
+    padding-bottom: 24px;
+  }
 .mob-menu {
   display: none;
 }
