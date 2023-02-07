@@ -33,22 +33,21 @@
   .hero-box {
     background-color: #2e2f42;
     background-image: var(--bg-gradient), url(../images/bghero-desktop-x1.jpg);
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    }
-      @media (min-device-pixel-ratio: 2),
+    padding-bottom: 188px;
+    padding-top: 188px;
+  }
+  @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-box {
       background-image: var(--bg-gradient), url(../images/bghero-desktop-x2.jpg);
     }
   }
-  .button {
-    padding-bottom: 188px;
-  }
+
   .main-page-title {
-    padding-top: 188px;
     margin-bottom: 48px;
   }
   .team-box {
@@ -63,6 +62,12 @@
   }
   .benefits-box {
     padding: 120px 0px 0px 0px;
+  }
+  .benefits-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
   }
   .do-box {
     display: block;
@@ -106,5 +111,3 @@
     padding-right: 24px;
   }
 }
-
-

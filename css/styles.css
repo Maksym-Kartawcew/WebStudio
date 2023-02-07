@@ -170,15 +170,23 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mob-menu {
- width: 100vw;
- height: 100vh;
+  width: 100vw;
+  height: 100vh;
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #fff;
-  
+  flex-direction: column;
   position: fixed;
   top: 0;
   z-index: 1;
+}
+
+.mob-menu > .container {
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+overflow: auto;
 }
 .mob-menu.is-hidden {
   visibility: hidden;
@@ -238,7 +246,7 @@ img {
   text-transform: capitalize;
   color: var(--brand-color);
   text-decoration: none;
-  padding-top: 284px;
+  
 }
 .mob-link-mail {
   display: block;
@@ -264,7 +272,7 @@ img {
 }
 .mob-soc-list {
   display: flex;
-   gap: 56px;
+  gap: 56px;
   justify-content: center;
   list-style: none;
 }
@@ -301,6 +309,8 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   flex-grow: 1;
+  padding-top: 112px;
+  padding-bottom: 112px;
 }
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -316,13 +326,11 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
   text-align: center;
-  padding-top: 112px;
   margin-bottom: 72px;
 }
 
 .button {
   text-align: center;
-  padding-bottom: 112px;
 }
 .modal-btn {
   font-family: "Roboto";
@@ -379,9 +387,9 @@ img {
   margin-right: 0px;
 }
 .benefits-list-title {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 1.2;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   padding: 0;

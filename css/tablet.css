@@ -3,14 +3,14 @@
     max-width: 768px;
   }
   .menu-open {
-  display: none;
+    display: none;
   }
   .header-logo {
     padding-bottom: 24px;
   }
-.mob-menu {
-  display: none;
-}
+  .mob-menu {
+    display: none;
+  }
   .nav {
     display: flex;
   }
@@ -24,14 +24,14 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    }
-  @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .hero-box {
-    background-image: var(--bg-gradient), url(../images/bghero-tablet-x2.jpg);
   }
-}
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-box {
+      background-image: var(--bg-gradient), url(../images/bghero-tablet-x2.jpg);
+    }
+  }
   .main-page-title {
     font-weight: 700;
     font-size: 56px;
@@ -46,7 +46,15 @@
   .benefits-list-item {
     max-width: 356px;
   }
-
+  .benefits-list-title {
+    text-align: left;
+  }
+  .benefits-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  letter-spacing: 0.02em;
   .team-box {
     padding-bottom: 104px;
   }
