@@ -591,7 +591,7 @@ overflow: auto;
   padding-top: 24px;
   padding-bottom: 24px;
 
-  transform: translate(-50%, -50%);
+ 
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
